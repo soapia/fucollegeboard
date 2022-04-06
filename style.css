@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Questrial&display=swap');
+
+body {
+  background-color: #9CE2FC;
+  color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  padding-top: 1em;
+  font-size: 3.5em;
+  margin: 0em 0.5em 0em 0.5em;
+  font-family: 'Questrial', sans-serif;
+  color: white;
+  text-shadow: -4px 4px #F7B6C4, -8px 8px #74D7FB;
+/*   text-shadow: -8px 8px #ffffff; */
+}
+
+/* small {
+  padding: 1em;
+}
+ */
+h5 {
+  padding: 1em 1em 0em 1em;
+/*   font-weight: bold; */
+  color: #000000;
+}
+
+h6 {
+  padding: 1em;
+}
+
+p {
+  padding: 0em 1em 0.25em 1em;
+}
+
+p:last-of-type {
+  margin-bottom: 2em;
+}
+
+.btn-outline-danger {
+  color: white;
+  background-color: #F7B6C4;
+  border-color: #F7B6C4;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0.25em;
+/*   background-color: DBB957 */
+}
+
+.btn-outline-danger:hover {
+  color: white;
+  background-color: #F7B6C4;
+  border-color: #F7B6C4;
+  
+/*   background-color: DBB957 */
+}
+
+.button {
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+/*   color: #9CE2FC; */
+}
+
+button {
+  background-color: #9CE2FC !important;
+  padding: 0.5em;
+  border-color: #9CE2FC !important;
+  font-weight: bold !important;
+  color: black !important;
+}
+
+.footer {
+  background-color: #F7B6C4 !important;
+  color: white !important;
+  
+}
+
+footer {
+  
+  width: 100%;
+  padding: 0.25em !important;
+}
+
+.footer a {
+  color: black;
+}
+
+@media only screen and (min-width: 750px) {
+
+    h5 {
+       font-size: 2em;
+    /*   padding: 0em 0.5em 0em 0.5em; */
+    }
+
+    h6 {
+      font-size: 1.25em;
+    }
+
+    .btn {
+      font-size: 1.5em !important;
+    }
+
+    h1 {
+      line-height: 100%;
+      font-size: 5em;
+/*       font-weight: bold; */
+/*       -webkit-text-stroke-width: 1.5px; */
+    }
+
+    p {
+      font-size: 1.25em;
+      line-height: 100%;
+      padding: 1em 6em 1em 6em;
+    /*   color: #231651 */
+    }
+  footer {
+    position: fixed;
+    bottom: 0%;
+    
+  }
+  p:last-of-type {
+    margin-bottom: 4em;
+  }
+    
+}
