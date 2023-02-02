@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Graduate&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-  background-color: #9CE2FC;
-  color: black;
+  background-color: #EBF5DF;
+  color: #2F4858;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
   padding-top: 1em;
-  font-size: 3.5em;
+  font-size: 4em;
   margin: 0em 0.5em 0em 0.5em;
-  font-family: 'Questrial', sans-serif;
-  color: white;
-  text-shadow: -4px 4px #F7B6C4, -8px 8px #74D7FB;
+  font-family: 'Graduate', cursive;
+  color: #BC2C1A;
+  text-shadow: -3px 3px #84B082;
 /*   text-shadow: -8px 8px #ffffff; */
 }
 
@@ -41,8 +41,8 @@ p:last-of-type {
 
 .btn-outline-danger {
   color: white;
-  background-color: #F7B6C4;
-  border-color: #F7B6C4;
+  background-color: #BC2C1A;
+  border-color: #BC2C1A;
   font-weight: bold;
   font-size: 1.5em;
   margin: 0.25em;
@@ -51,8 +51,8 @@ p:last-of-type {
 
 .btn-outline-danger:hover {
   color: white;
-  background-color: #F7B6C4;
-  border-color: #F7B6C4;
+  background-color: #84B082;
+  border-color: #84B082;
   
 /*   background-color: DBB957 */
 }
@@ -73,7 +73,7 @@ button {
 }
 
 .footer {
-  background-color: #F7B6C4 !important;
+  background-color: #BC2C1A !important;
   color: white !important;
   
 }
@@ -85,7 +85,7 @@ footer {
 }
 
 .footer a {
-  color: black;
+  color: #84B082;
 }
 
 @media only screen and (min-width: 750px) {
