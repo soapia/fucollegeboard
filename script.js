@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
   
-  var writing = ["am writing", "write", "message", "am messaging", "write to", "am writing to", "email", "am emailing"]
+  var writing = ["am writing", "write", "message", "am messaging", "write", "am writing", "email", "am emailing"]
   var express = ["voice", "express", "relay"]
   var anger = ["anger", "dissatisfaction", "frustration"]
   var your = ["your", "your and your colleagues'", "your colleagues'", "the College Board's"]
@@ -43,7 +43,7 @@ var deserve = ["deserve to", "must", "have to", "need to"]
 var holistic = ["holistic", "truthful", "authentic", "relevant", "comprehensive"]
 var black = ["Black American", "African American", "Black"]
 var accurately = ["accurately", "truthfully"]
-var sen3 = `${cap(rand(vital))} contemporary ${rand(elements)} ${rand(suchas)} ${rand(blm)}, and  ${rand(influential)} ${rand(thinker)} ${rand(suchas)} ${rand(authors)} ${rand(cant)} be ${rand(censored)} students ${rand(deserve)} learn from a ${rand(holistic)} curriculum that ${rand(accurately)} depicts the ${rand(black)} experience.`
+var sen3 = `${cap(rand(vital))} contemporary ${rand(elements)}, ${rand(suchas)} ${rand(blm)}, and  ${rand(influential)} ${rand(thinker)}, ${rand(suchas)} ${rand(authors)}, ${rand(cant)} be ${rand(censored)}—students ${rand(deserve)} learn from a ${rand(holistic)} curriculum that ${rand(accurately)} depicts the ${rand(black)} experience.`
 
 // Email Template #2~ Jack
 
